@@ -3,7 +3,6 @@ import './MainLine.css';
 import shape from './img/shape.svg'
 
 
-
 function MainLine() {
     return (
         <div className='section'>
