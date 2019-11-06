@@ -11,7 +11,7 @@ function MainLine() {
                 <p>Всего соискателей: 67</p>
             </div>
             <button className='button_fav'>
-                <object className = 'qwe' data={shape} type="image/svg+xml" ></object>
+                <object data={shape} type="image/svg+xml" ></object>
                 Избранные
             </button>
         </div>
