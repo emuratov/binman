@@ -1,6 +1,8 @@
 .section{
     width: 100%;
     height: 500px;    
+    display: flex;
+    justify-content: space-between;
 }
 h2{
     width: 182.13px;
@@ -15,10 +17,17 @@ p{
     width: 115.49px;
     height: 12px;
     color: #8ea4b5;
-    font-family: Roboto;
     font-size: 11px;
     font-weight: 400;
     line-height: 12px;
+    margin-top: 5px;
+}
+.buttonLine{
+    display: flex;
+}
+
+.buttonLine button{
+    border-radius: 3px ;
 }
 .button_fav{
     width: 116px;
@@ -30,7 +39,34 @@ p{
     font-weight: 700;
     line-height: 13px;
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
-.button_fav object{
-    padding: 0 10px;
+.button_fav svg{
+    margin-right: 10px;
+    margin-top: -3px;
+    fill:  #475364;;
+    align-items: center;
+}
+.buttom_addUser{
+    width: 181px;
+    height: 36px;
+    background: #386bf2;
+    justify-content: center;
+    align-items: center;   
+    border: 0;
+}
+.buttom_addUser svg{
+    margin-right: 5px;
+    margin-top: -3px;
+    fill: #ffffff;
+}
+.buttom_addUser span{
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 11px;
+    text-transform: uppercase;
 }
